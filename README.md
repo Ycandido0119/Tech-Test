@@ -9,7 +9,7 @@ This is a Django web application for storing files.
 The commands are all based on if you are on a Mac. The first step in terms of setting up this repo is to set up your virtual environment.
 
 ```bash
-source mysite/bin.activate
+source mysite/bin/activate
 ```
 
 ## Installation
@@ -60,11 +60,13 @@ If Django is installed, you will get this result:
 
 How to get it running?
 
-When running the Django project make sure you are in the local environment. Navigate to the "octoapp" folder and execute this command in the command prompt:
+When running the Django project make sure you are in the local environment. Navigate to the project's folder "octoapp" and execute this command in the command prompt:
 
 ```bash
+cd octoapp
 python manage.py runserver
 ```
+Now you need to import the files into the datab
 
 To get into the admin site once you have ran that command enter the browser window, add the admin url in the address bar.
 
